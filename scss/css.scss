@@ -1,0 +1,40 @@
+@import 'reset';
+/*body*/
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-size: 12px;
+    text-align: left;
+    background: #d7d7d9;
+}
+
+a {
+    & ,&:link, &:visited, &:active {
+        color: #404d71;
+        text-decoration: none
+    }
+    &:hover {
+        color: #404d71;
+        text-decoration: underline;
+        img {
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+        }
+    }
+}
+#console{
+    width:200px;
+    height:180px;
+    border:1px solid rgba(0,0,0,.1);
+    background-color: rgba(0, 0, 0, .1);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 10px;
+    color: #fff;
+    overflow: hidden;
+}

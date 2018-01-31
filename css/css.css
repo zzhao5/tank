@@ -1,0 +1,37 @@
+body, h1, h2, h3, h4, h5, h6, blockquote, p, dl, dt, dd, ul, ol, li, th, td, form, fieldset, legend, button, input, textarea { margin: 0; padding: 0; }
+
+em, i { font-style: normal; }
+
+body, button, input, select, textarea { font: 8px arial, "Microsoft YaHei", "SimHei", "SimSun", sans-serif; }
+
+button, input, select, textarea, h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+
+ol, ul { list-style: none; }
+
+img, fieldset { border: 0; vertical-align: middle; }
+
+textarea { resize: none; }
+
+a { outline: 0; }
+a:active { star: expression(this.onFocus=this.blur()); }
+
+:focus { outline: 0; }
+
+table { table-layout: fixed; }
+
+.pr { position: relative; }
+
+.clear { font-size: 0; line-height: 0; height: 0; overflow: hidden; clear: both; visibility: hidden; }
+
+ul.fl, ol.fl { float: left; display: block; }
+
+/*body*/
+body { margin: 0; padding: 0; color: #000; font-size: 12px; text-align: left; background: #d7d7d9; }
+
+a, a:link, a:visited, a:active { color: #404d71; text-decoration: none; }
+a:hover { color: #404d71; text-decoration: underline; }
+a:hover img { filter: alpha(opacity=80); opacity: 0.8; }
+
+#console { width: 200px; height: 180px; border: 1px solid rgba(0, 0, 0, 0.2); background-color: rgba(0, 0, 0, 0.1); position: fixed; right: 0; bottom: 0; font-size: 12px; line-height: 1.5; padding: 10px; color: #fff; overflow: hidden; }
+
+/*# sourceMappingURL=css.css.map */
